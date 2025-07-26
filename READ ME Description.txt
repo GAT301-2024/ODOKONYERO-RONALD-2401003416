@@ -1,30 +1,54 @@
+Key Features of the System:
+Web Dashboard:
 
-The above code system uses PIR sensor to detect motion and
-turns on the LED when motion is detected using the microcontroller
-***********************************
-Designed by members of groups in Faculty of science
-Gulu UNIVERSITY
-YEAR ONE Students
-::::::::::::::::::::::::::::
+Clean, responsive interface for controlling all 3 LEDs
 
+Visual indicators for LED states (ON/OFF)
 
+Automatic mode toggle (sensor-based control)
 
+Manual override controls
 
+Control Modes:
 
+Automatic mode (sensor-controlled)
 
+Manual mode (web-controlled)
 
+System Information:
 
+"Ronald's Systems" branding
 
+"Engineering Team 2"
 
+Technical Implementation:
 
+ESP32 WiFi connectivity
 
+Web server for remote control
 
+REST-like API for control commands
 
+JavaScript for dynamic UI updates
 
+Components:
+ESP32 DevKit 
 
+3 LEDs (with appropriate current-limiting resistors)
 
+Motion sensor (connected to D2)
 
+Transistors if driving higher-power LEDs
 
+Power supply components 
 
+Usage Instructions:
+Upload the code to ESP32
 
+Connect to the provided WiFi network
 
+Access the web interface via the ESP32's IP address
+
+Control LEDs manually or enable automatic sensor mode
+
+The system maintains all original sensor functionality while adding remote control capabilities through a professional web interface.
